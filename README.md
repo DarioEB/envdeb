@@ -1,6 +1,6 @@
 # envdbar
 
-A lightweight Go package for loading environment variables from .env files.
+envdbar is a simple and lightweight Go package for loading environment variables from .env files into your application. It supports comments, empty lines, and values containing the "=" character.
 
 ## Installation
 
