@@ -1,3 +1,5 @@
+// Package envdbar provides a simple way to load environment variables
+// from .env files into the application.
 package envdbar
 
 import (
@@ -6,6 +8,9 @@ import (
 	"strings"
 )
 
+// Load reads environment variables from a file and sets them in the process.
+// If no filename is provided, it defaults to ".env".
+// It supports comments (#), quoted values, inline comments, and values containing "=".
 func Load(filename ...string) error {
 	file := ".env"
 	if len(filename) > 0 {
@@ -71,6 +76,8 @@ func parseValue(raw string) string {
 	return value
 }
 
+// Get retrieves an environment variable by name.
+// If the variable is not set or is empty, it returns the optional defaultValue.
 func Get(variable string, defaultValue ...string) string {
 	value := os.Getenv(variable)
 	if value == "" && len(defaultValue) > 0 {
