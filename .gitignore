@@ -1,0 +1,22 @@
+# Environment files (keep .env and .env.test for tests)
+.env.local
+.env.production
+.env*.local
+
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Dependency directories
+vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo

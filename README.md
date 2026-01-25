@@ -1,6 +1,13 @@
 # envdbar
 
-envdbar is a simple and lightweight Go package for loading environment variables from .env files into your application. It supports comments, empty lines, and values containing the "=" character.
+[![Test](https://github.com/db-ar/envdbar/actions/workflows/testing.yml/badge.svg)](https://github.com/db-ar/envdbar/actions/workflows/testing.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/db-ar/envdbar.svg)](https://pkg.go.dev/github.com/db-ar/envdbar)
+
+A simple and lightweight Go package for loading environment variables from .env files into your application. It supports comments, empty lines, and values containing the "=" character.
+
+## Requirements
+
+- Go 1.18+
 
 ## Installation
 

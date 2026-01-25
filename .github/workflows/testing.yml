@@ -9,7 +9,7 @@ jobs:
     test:
         runs-on: ubuntu-latest
         steps:
-            - name: Check out repositoty code
+            - name: Check out repository code
               uses: actions/checkout@v6
             - name: Setup Go
               uses: actions/setup-go@v6
