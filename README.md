@@ -1,7 +1,7 @@
 # envdbar
 
-[![Test](https://github.com/DarioEB/envdbar/actions/workflows/testing.yml/badge.svg)](https://github.com/DarioEB/envdbar/actions/workflows/testing.yml)
-[![Go Reference](https://pkg.go.dev/badge/github.com/DarioEB/envdbar.svg)](https://pkg.go.dev/github.com/DarioEB/envdbar)
+[![Test](https://github.com/DarioEB/envdeb/actions/workflows/testing.yml/badge.svg)](https://github.com/DarioEB/envdeb/actions/workflows/testing.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/DarioEB/envdeb.svg)](https://pkg.go.dev/github.com/DarioEB/envdeb)
 
 A simple and lightweight Go package for loading environment variables from .env files into your application. It supports comments, empty lines, and values containing the "=" character.
 
@@ -12,7 +12,7 @@ A simple and lightweight Go package for loading environment variables from .env 
 ## Installation
 
 ```bash
-go get github.com/DarioEB/envdbar
+go get github.com/DarioEB/envdeb
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ go get github.com/DarioEB/envdbar
 ```go
 package main
 
-import "github.com/DarioEB/envdbar"
+import "github.com/DarioEB/envdeb"
 
 func main() {
     // Load from .env (default)
