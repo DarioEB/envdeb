@@ -1,3 +1,3 @@
-module github.com/db-ar/envdbar
+module github.com/DarioEB/envdbar
 
-go 1.25.5
+go 1.26.1
