@@ -1,4 +1,4 @@
-# envdbar
+# envdeb
 
 [![Test](https://github.com/DarioEB/envdeb/actions/workflows/testing.yml/badge.svg)](https://github.com/DarioEB/envdeb/actions/workflows/testing.yml)
 [![Go Reference](https://pkg.go.dev/badge/github.com/DarioEB/envdeb.svg)](https://pkg.go.dev/github.com/DarioEB/envdeb)
@@ -26,13 +26,13 @@ import "github.com/DarioEB/envdeb"
 
 func main() {
     // Load from .env (default)
-    err := envdbar.Load()
+    err := envdeb.Load()
     if err != nil {
         panic(err)
     }
 
     // Or load from a custom file
-    err = envdbar.Load(".env.production")
+    err = envdeb.Load(".env.production")
     if err != nil {
         panic(err)
     }
@@ -43,10 +43,10 @@ func main() {
 
 ```go
 // Get a variable (returns empty string if not set)
-port := envdbar.Get("PORT")
+port := envdeb.Get("PORT")
 
 // Get a variable with a default value
-port := envdbar.Get("PORT", "8080")
+port := envdeb.Get("PORT", "8080")
 ```
 
 ## Supported .env syntax

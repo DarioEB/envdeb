@@ -1,6 +1,6 @@
-// Package envdbar provides a simple way to load environment variables
+// Package envdeb provides a simple way to load environment variables
 // from .env files into the application.
-package envdbar
+package envdeb
 
 import (
 	"bufio"

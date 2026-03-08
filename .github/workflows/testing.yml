@@ -1,4 +1,4 @@
-name: Test envdbar package
+name: Test envdeb package
 
 on:
     push:

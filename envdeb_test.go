@@ -1,4 +1,4 @@
-package envdbar
+package envdeb
 
 import (
 	"os"
